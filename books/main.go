@@ -17,15 +17,15 @@ func main() {
 
 func GetBooksHandler(w http.ResponseWriter, r *http.Request) {
 
-	videos := getBooks()
+	books := getBooks()
 
-	videoBytes, err := json.Marshal(videos)
+	bookBytes, err := json.Marshal(books)
 
 	if err != nil {
 		panic(err)
 	}
 
-	w.Write(videoBytes)
+	w.Write(bookBytes)
 }
 
 func SaveBooksHandler(w http.ResponseWriter, r *http.Request) {

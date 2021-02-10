@@ -1,14 +1,14 @@
 [
     {
-          "id" : "12345",
-          "title" : "Consider Yourself Dead",
-          "author" : "James Hadley Chase",
-          "year" : "1978"
-      },
+        "id": "12345",
+        "title": "Consider Yourself Dead",
+        "author": "James Hadley Chase",
+        "year": "1978"
+    },
     {
-          "id" : "123412",
-          "title" : "The Crime in Cabin 66",
-          "author" : "Agatha Christie",
-          "year" : "1943"
-      }
-  ]
+        "id": "123412",
+        "title": "The Crime in Cabin 66",
+        "author": "Agatha Christie",
+        "year": "1943"
+    }
+]
