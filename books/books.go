@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 )
 
@@ -39,5 +40,7 @@ func saveBooks(books []book) {
 	if err != nil {
 		panic(err)
 	}
+
+	fmt.Println("Book saved!")
 
 }
