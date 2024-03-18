@@ -35,7 +35,7 @@ func saveBooks(books []book) {
 		panic(err)
 	}
 
-	err = ioutil.WriteFile("./new-books.json", bookBytes, 0644)
+	err = os.WriteFile("./new-books.json", bookBytes, 0644)
 	if err != nil {
 		panic(err)
 	}
