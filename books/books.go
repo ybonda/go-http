@@ -41,6 +41,5 @@ func saveBooks(books []book) {
 		panic(err)
 	}
 
-	fmt.Println("Book saved!!!")
-
+	fmt.Println("Book saved!")
 }
