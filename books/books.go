@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"io/ioutil"
+	"os"
 )
 
 type book struct {
@@ -14,10 +14,10 @@ type book struct {
 
 func getBooks() (books []book) {
 
-	fileBytes, err := ioutil.ReadFile("./books.json")
+	fileBytes, err := os.ReadFile("./books.json")
 
 	if err != nil {
-		panic(err)
+		panic(err) // panicing
 	}
 
 	err = json.Unmarshal(fileBytes, &books)
