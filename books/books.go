@@ -27,6 +27,7 @@ func getBooks() (books []book) {
 		panic(err)
 	}
 
+	fmt.Println("Got the book!")
 	return books
 }
 
@@ -40,6 +41,5 @@ func saveBooks(books []book) {
 	if err != nil {
 		panic(err)
 	}
-
-	fmt.Println("Book saved!")
+	fmt.Println("Book saved.")
 }
