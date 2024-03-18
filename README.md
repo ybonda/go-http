@@ -1,4 +1,4 @@
-# Simple http service example in golang
+# Simple http service example in Go
 
 ## Build and run
 
