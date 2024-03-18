@@ -2,7 +2,7 @@
 
 ## Build and run
 
-``` shell
+```shell
 go mod init books
 go build
 ./books
@@ -10,7 +10,7 @@ go build
 
 ## Run inside docker container
 
-``` shell
+```shell
 docker build --target dev . -t go
 docker run -it -p 8080:8080 -v ${PWD}:/work go sh
 go mod init books
