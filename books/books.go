@@ -27,6 +27,7 @@ func getBooks() (books []book) {
 		panic(err)
 	}
 
+	fmt.Println("Got the book!")
 	return books
 }
 
