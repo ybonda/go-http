@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"os"
 )
 
 func main() {
@@ -32,7 +33,7 @@ func SaveBooksHandler(w http.ResponseWriter, r *http.Request) {
 
 	if r.Method == "POST" {
 
-		body, err := ioutil.ReadAll(r.Body)
+		body, err := os.ReadAll(r.Body)
 		if err != nil {
 			panic(err)
 		}
