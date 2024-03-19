@@ -17,5 +17,3 @@ go mod init books
 go build
 ./books
 ```
-
-Great!
