@@ -48,6 +48,6 @@ func SaveBooksHandler(w http.ResponseWriter, r *http.Request) {
 
 	} else {
 		w.WriteHeader(405)
-		fmt.Fprintf(w, "This method not Supported!")
+		fmt.Fprintf(w, "This method not Supported!") // nice
 	}
 }
