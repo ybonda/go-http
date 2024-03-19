@@ -17,6 +17,3 @@ go mod init books
 go build
 ./books
 ```
-
-1
-2
