@@ -19,4 +19,3 @@ go build
 ```
 
 Great!
-Amazing doc!
